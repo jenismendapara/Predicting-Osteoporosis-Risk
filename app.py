@@ -15,7 +15,7 @@ st.header("Enter Patient Details")
 
 # User Input for Features
 feature_inputs = {}
-# feature_inputs['Age'] = st.number_input("Age", min_value=0, max_value=120, value=30)
+feature_inputs['Age'] = st.number_input("Age", min_value=0, max_value=120, value=30)
 feature_inputs['Gender'] = st.selectbox("Gender", ["Male", "Female"])
 feature_inputs['Hormonal Changes'] = st.selectbox("Hormonal Changes", ["Normal", "Postmenopausal"])
 feature_inputs['Family History'] = st.selectbox("Family History of Osteoporosis", ["No", "Yes"])
